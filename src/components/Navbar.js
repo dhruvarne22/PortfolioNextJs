@@ -68,7 +68,7 @@ const Navbar = () => {
           <CustomLink href="/" title="Home" className='mr-4' />
           <CustomLink href="/about" title="About" className='mx-4' />
           <CustomLink href="/projects" title="Projects" className='mx-4' />
-          <CustomLink href="/articles" title="Articles" className='ml-4' />
+          {/* <CustomLink href="/articles" title="Articles" className='ml-4' /> */}
 
         </nav>
 
@@ -79,28 +79,22 @@ const Navbar = () => {
 
 
 
-          <motion.a whileHover={{ y: -2 }} href="/"
+          <motion.a whileHover={{ y: -2 }} href="https://www.instagram.com/sahdev__2070"
             className="w-6 mx-3"
             whileTap={{ scale: 0.9 }}
             target={"_blank"}>
-            <TwitterIcon />
+            <InstagramIcon />
           </motion.a>
-          <motion.a whileHover={{ y: -2 }} href="/"
+          <motion.a whileHover={{ y: -2 }} href="https://github.com/sahdev20"
             className="w-6 mx-3"
             whileTap={{ scale: 0.9 }}
             target={"_blank"}><GithubIcon /></motion.a>
-          <motion.a whileHover={{ y: -2 }} href="/"
-            className="w-6 mx-3 bg-light rounded-full"
-            whileTap={{ scale: 0.9 }}
-            target={"_blank"} ><PinterestIcon /></motion.a>
-          <motion.a whileHover={{ y: -2 }} href="/"
+          
+          <motion.a whileHover={{ y: -2 }} href="https://www.linkedin.com/in/sahdev-patel20/"
             className="w-6 mx-3"
             whileTap={{ scale: 0.9 }}
             target={"_blank"}><LinkedInIcon /></motion.a>
-          <motion.a whileHover={{ y: -2 }} href="/"
-            className="w-6 mx-3"
-            whileTap={{ scale: 0.9 }}
-            target={"_blank"}><DribbbleIcon /></motion.a>
+        
 
           <button onClick={() => setMode(mode === "light" ? "dark" : "light")}
 
@@ -194,3 +188,17 @@ const Navbar = () => {
 }
 
 export default Navbar
+
+
+export const InstagramIcon = (props) => (
+  <svg 
+    xmlns="http://www.w3.org/2000/svg" 
+    viewBox="0 0 24 24" 
+    width="24" 
+    height="24" 
+    fill="currentColor"
+    {...props}
+  >
+    <path d="M7.75 2h8.5A5.75 5.75 0 0 1 22 7.75v8.5A5.75 5.75 0 0 1 16.25 22h-8.5A5.75 5.75 0 0 1 2 16.25v-8.5A5.75 5.75 0 0 1 7.75 2zm0-2A7.75 7.75 0 0 0 0 7.75v8.5A7.75 7.75 0 0 0 7.75 24h8.5A7.75 7.75 0 0 0 24 16.25v-8.5A7.75 7.75 0 0 0 16.25 0h-8.5zM12 6.5a5.5 5.5 0 1 1 0 11 5.5 5.5 0 0 1 0-11zm0 9a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7zM18.5 5a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3z" />
+  </svg>
+);

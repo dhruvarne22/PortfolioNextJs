@@ -105,91 +105,57 @@ const projects = () => {
                         <div className='col-span-12'>
                             <FeaturedProject
 
-                                title="Crypto Screener Application"
-
-                                summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-local currency."
-                                link="/"
-                                type="React"
-                                img={project1}
-                                github="/"
+title="CetizenCare App"
+summary="Directed the integration of home services and retail into a multi-service platform, introducing a reward system that enhanced customer engagement and loyalty. Leveraged Node.js and MongoDB for platform development, boosting customer loyalty by 20%."
+link="/"
+type="Node.js, MongoDB"
+img={project1}
+github="/"
                             />
                         </div>
                         <div className='col-span-6 sm:col-span-12'>
-                            <Project
 
-                                title="Crypto Screener Application"
 
-                                summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-local currency."
-                                link="/"
-                                type="React"
-                                img={project1}
-                                github="/"
-                            />
+                     
+
+<Project
+    title="GS-NWI Community App"
+    summary="Designed and implemented a cultural hub app for the Gujarati community in the USA using UI/UX design tools, fostering connections among 500+ users. Increased community interaction by 30% through enhanced accessibility and usability."
+    link="/"
+    type="UI/UX Design"
+    img={project1}
+    github="/"
+/>
+
+
+
                         </div>
 
                         <div className='col-span-6 sm:col-span-12'>
                         <Project
-
-title="Crypto Screener Application"
-
-summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-local currency."
-link="/"
-type="React"
-img={project1}
-github="/"
+    title="Deep Learning Project - Asphalt Insight"
+    summary="Employing cutting-edge deep learning tools and image processing techniques to accurately identify and assess road surface cracks. Utilized image processing tools to empower the system in delivering high-quality actionable insights and optimizing resource utilization."
+    link="/"
+    type="Deep Learning, Image Processing"
+    img={project1}
+    github="/"
 />
+
                         </div>
 
 
                         <div className='col-span-12'>
                         <FeaturedProject
+    title="Algorithm Project - VoyageVista"
+    summary="Implemented a cutting-edge navigation solution using Reinforcement Learning to optimize travel efficiency. Applied an intelligent system leveraging data analytics, AI, and machine learning to calculate factors such as mileage, weather conditions, distance, and time. Delivered routing options with 20% higher accuracy than current market alternatives."
+    link="/"
+    type="Reinforcement Learning, AI, Data Analytics"
+    img={project1}
+    github="/"
+/>
 
-                                title="Crypto Screener Application"
-
-                                summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-local currency."
-                                link="/"
-                                type="React"
-                                img={project1}
-                                github="/"
-                            />
                         </div>
-                        <div className='col-span-6 sm:col-span-12'>
-                              <Project
-
-                                title="Crypto Screener Application"
-
-                                summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-local currency."
-                                link="/"
-                                type="React"
-                                img={project1}
-                                github="/"
-                            />
-                        </div>
-
-                        <div className='col-span-6 sm:col-span-12'>
-                              <Project
-
-                                title="Crypto Screener Application"
-
-                                summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-local currency."
-                                link="/"
-                                type="React"
-                                img={project1}
-                                github="/"
-                            />
-                        </div>
+                      
 
 
 
