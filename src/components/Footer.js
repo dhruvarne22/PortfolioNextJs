@@ -16,7 +16,7 @@ Built With <span className='text-primary dark:text-primaryDark text-2xl px-1'>&#
 </div>
         
         
-        <Link href="mailto:abc@gmail.com" className='underline underline-offset-2'>
+        <Link href="mailto:Sahdev.01patel@gmail.com" className='underline underline-offset-2'>
         Say Hello
         </Link>
     </Layout>
